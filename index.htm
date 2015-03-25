@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Medicine Center</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+
+<script type="text/javascript">  
+//This is done to make the following JavaScript code compatible to XHTML. <![CDATA[ 
+function findstring(med) 
+{
+var check = window.find(med);
+if(check == false)
+{
+    alert("Medicine not found");
+}
+//window.location.reload();  
+}//]]>  
+</script> 
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+    body {
+        text-align: center;
+    }
+    }
+    </style>
+
+
+  </head>
+  <body>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+<h1>Medicine Helper<h1>
+
+<h3>Welcome to the Medicine Center<h3>
+
+<div class="navbar navbar-default">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#"><div style="font-size:30px;">Menu</div></a>
+  </div>
+  <div style="height: 1px;" class="navbar-collapse navbar-responsive-collapse collapse">
+    <ul class="nav navbar-nav">
+      <form class="navbar-form navbar-center">
+        <button type="button" href="file_list.php" class="btn btn-success">Browse</button>
+        <button onclick="myFunction()" type="button" href="file_list.php" class="btn btn-success">Search</button>
+        <button onclick="window.location.reload()" type="button" href="file_list.php" class="btn btn-success">Reload</button>
+    </form>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+      </li>
+    </ul>
+  </div>
+</div>
+
+Please select medicines from the list below-</br>
+
+
+<script>
+function myFunction() {
+    var x;
+    var person = prompt("Please enter Medicine name you are looking for");
+    if (person != null) {
+        javascript:findstring(person);
+    } else
+    {
+        alert('No input given');
+    }
+}
+</script>
+</br>
+<div class="list-group">
+    <div class="panel panel-success">
+  <div class="panel-heading">
+    <h3 class="panel-title" style="font-size:20px;">Medicine List</h3>
+  </div>
+</div>
+</div>
+    <a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Acuren.htm">Acuren</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Adiponil.htm">Adiponil</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Adora.htm">Adora</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Adrinor.htm">Adrinor</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Alervil.htm">Alervil</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Alneed%20Gold.htm">Alneed Gold</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Alneed.htm">Alneed</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Amidol.htm">Amidol</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Aqualax.htm">Aqualax</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Aquaphen.htm">Aquaphen</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Aripra.htm">Aripra</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Aritone%20ZI.htm">Aritone ZI</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Arpolax.htm">Arpolax</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Betaderm%20Ointment.htm">Betaderm Ointment</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Betamesal%20Lotion.htm">Betamesal Lotion</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Beuflox-D%20Eye_Ear%20Drops.htm">Beuflox-D Eye_Ear Drops</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Cardivit.htm">Cardivit</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Celbarin.htm">Celbarin</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Cispenam.htm">Cispenam</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Cliomet%20Ear%20Drops.htm">Cliomet Ear Drops</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Compiron.htm">Compiron</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Cortan%20Eye%20Drops.htm">Cortan Eye Drops</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Dancel%20Shampoo.htm">Dancel Shampoo</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Dexaguard%20Eye%20Drops.htm">Dexaguard Eye Drops</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Dextrobac%20Eye%20Drops.htm">Dextrobac Eye Drops</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Dilate%20Eye%20Drops.htm">Dilate Eye Drops</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Dilate%20Plus.htm">Dilate Plus</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Dobutin.htm">Dobutin</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Doxiderm.htm">Doxiderm</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Drometa.htm">Drometa</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Econate.htm">Econate</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Efdinir.htm">Efdinir</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Elimate%20Plus.htm">Elimate Plus</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Epleron.htm">Epleron</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Epoetin.htm">Epoetin</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Evagren.htm">Evagren</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Febustat.htm">Febustat</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Fenazine.htm">Fenazine</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Filastin.htm">Filastin</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Filtear%20Eye%20Drops.htm">Filtear Eye Drops</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Flexor.htm">Flexor</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Flurazine.htm">Flurazine</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Folneed.htm">Folneed</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Fortison.htm">Fortison</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Frenia.htm">Frenia</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Hyronate.htm">Hyronate</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Inospiron.htm">Inospiron</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Intaflam.htm">Intaflam</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Intasone%20Injection.htm">Intasone Injection</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Intobac%20Eye%20Drops.htm">Intobac Eye Drops</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Iriban.htm">Iriban</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Joinix.htm">Joinix</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Kerasol%20Cream.htm">Kerasol Cream</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Ketaride.htm">Ketaride</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Lafrost.htm">Lafrost</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Larcadip.htm">Larcadip</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Lopadine%20Eye%20Drops.htm">Lopadine Eye Drops</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Lotepro%20Eye%20Drops.htm">Lotepro Eye Drops</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Lotepro%20Plus.htm">Lotepro Plus</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Lozana.htm">Lozana</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Lozicum.htm">Lozicum</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Lubric%20Eye%20Drops.htm">Lubric Eye Drops</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Lubric%20Gel.htm">Lubric Gel</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Magfin.htm">Magfin</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Marlox.htm">Marlox</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Mirolast%20Eye%20Drops.htm">Mirolast Eye Drops</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Myolax%20Plus.htm">Myolax Plus</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Myolax.htm">Myolax</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Myomine.htm">Myomine</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Nicosit.htm">Nicosit</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Nintoin.htm">Nintoin</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Nodia.htm">Nodia</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Nomopil.htm">Nomopil</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Nor%20Q.htm">Nor Q</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Norbit.htm">Norbit</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Nordrine.htm">Nordrine</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Opifen%20Injection.htm">Opifen Injection</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Opifen.htm">Opifen</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Osteo%20D.htm">Osteo D</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Ovuclon.htm">Ovuclon</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Oxazep.htm">Oxazep</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Pedilid.htm">Pedilid</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Preneed%20CI.htm">Preneed CI</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Presonil.htm">Presonil</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Prosol%20IV.htm">Prosol IV</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Proviten%20JR.htm">Proviten JR</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Pyrazone.htm">Pyrazone</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Quiet.htm">Quiet</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Ralozine.htm">Ralozine</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Rasonix.htm">Rasonix</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Reconil.htm">Reconil</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Renophos.htm">Renophos</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Repane.htm">Repane</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Repose.htm">Repose</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Ridel%20ER.htm">Ridel ER</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Salinix.htm">Salinix</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Sardopa.htm">Sardopa</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Sporium.htm">Sporium</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Spotclen%20Plus.htm">Spotclen Plus</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Spotclen.htm">Spotclen</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Sudocof.htm">Sudocof</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Sudorin.htm">Sudorin</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Tazoskin.htm">Tazoskin</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Tenafet.htm">Tenafet</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Terazon.htm">Terazon</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Tergocin.htm">Tergocin</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Tinobac.htm">Tinobac</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Travast%20Plus.htm">Travast Plus</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Travast.htm">Travast</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Urilax.htm">Urilax</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Valsartil%20Plus.htm">Valsartil Plus</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Valsartil.htm">Valsartil</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Vanmycin.htm">Vanmycin</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Veracal.htm">Veracal</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Vibrenta.htm">Vibrenta</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Vitagrow.htm">Vitagrow</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Warin.htm">Warin</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Xenogrow.htm">Xenogrow</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Xynovir.htm">Xynovir</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Zapenia.htm">Zapenia</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Zolenic.htm">Zolenic</a><br><a style="font-size:17px;" class="list-group-item" href="http://localhost/codes/files/medicines/Zopilone.htm">Zopilone</a><br>
+
+
+
+
+</h3></body><meta style="visibility: hidden !important; display: block !important; width: 0px !important; height: 0px !important; border-style: none !important;"><embed style="visibility: hidden !important; display: block !important; width: 1px !important; height: 1px !important; border-style: none !important; position: absolute !important; top: 0px !important; left: 0px !important;" type="application/x-eagleget" id="__EAGLEGET__" height="1" width="1"></html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Medicine Center</title>
+<title>Medicine Center</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+
+<script type="text/javascript">  
+//This is done to make the following JavaScript code compatible to XHTML. <![CDATA[ 
+function findstring(med) 
+{
+var check = window.find(med);
+if(check == false)
+{
+    alert("Medicine not found");
+}
+//window.location.reload();  
+}//]]>  
+</script> 
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+<h1>Medicine Helper<h1>
+
+    <div class="navbar navbar-default">
+     <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav">
+    </ul>
+    <form class="navbar-form navbar-left">
+        <button type="button" href="file_list.php" class="btn btn-success">Browse</button>
+        <button onclick="myFunction()" type="button" href="file_list.php" class="btn btn-success">Search</button>
+        <button onclick="window.location.reload()" type="button" href="file_list.php" class="btn btn-success">Reload</button>
+    </form>
+    <ul class="nav navbar-nav navbar-right">
+    </ul>
+  </div>
+</div>
+
+
+<h3>Welcome to the Medicine Center<h3>
+
+Please select medicines from the list below-</br>
+
+
+<script>
+function myFunction() {
+    var x;
+    var person = prompt("Please enter Medicine name you are looking for");
+    if (person != null) {
+        javascript:findstring(person);
+    } else
+    {
+        alert('No input given');
+    }
+}
+</script>
+</br>
+<div class="list-group">
+    <div class="panel panel-success">
+  <div class="panel-heading">
+    <h3 class="panel-title" style="font-size:20px;">Medicine List</h3>
+  </div>
+</div>
+</div>
+    <?php
+        $str=NULL;
+        if ($handle = opendir('medicines/')) {
+        while (false !== ($entry = readdir($handle))) {
+        if ($entry != "." && $entry != "..") {
+            $str .= $entry." ";
+            //echo $entry."</br>";
+            //echo '<a href="$entry">medicine</a>'."\n";
+            echo "<a style='font-size:17px;' class='list-group-item' href='medicines/$entry'>".substr($entry, 0,-4)."</a>"."</br>";
+            }
+        }
+        closedir($handle);
+        }
+    ?>
+</div>
+
+
+
+</body>
+</html>

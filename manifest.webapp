@@ -1,0 +1,16 @@
+{
+  "name": "Medicine helper",
+  "description": "This is a list of available medicines (mostly in Bangladesh). You can see the medicine catalog & user manual by simply searching through the list",
+  "launch_path": "/index.htm",
+  "icons": {
+    "128": "/icon.png"
+  },
+  "developer": {
+    "name": "Nowshad & Nebir",
+    "url": "www.sustcse12.net"
+  },
+  "chrome": {
+    "navigation": true
+  },
+  "default_locate": "en"
+}
